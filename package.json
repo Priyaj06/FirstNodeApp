@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Priyaj06/firstnodeapp/issues"
   },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint index.js"
+  },
   "homepage": "https://github.com/Priyaj06/firstnodeapp#readme"
 }
